@@ -11,7 +11,7 @@ from utils.export import to_markdown
 from utils.code_executor import execute
 
 st.set_page_config(
-    page_title="Streamlit AI Lab",
+    page_title="SheetPilot",
     page_icon="🧪",
     layout="wide",
 )
@@ -74,7 +74,7 @@ if "execution_results" not in st.session_state:
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 
 with st.sidebar:
-    st.title("Streamlit AI Lab")
+    st.title("SheetPilot")
 
     # -- Model selector --
     st.subheader("Model")

@@ -1,4 +1,4 @@
-# Streamlit AI Lab - Project Proposal
+# SheetPilot - Project Proposal
 
 ## Overview
 

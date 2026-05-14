@@ -1,10 +1,10 @@
-# Streamlit AI Lab
+# SheetPilot
 
 Streamlit 기반의 로컬 AI 워크벤치. Ollama를 통해 LLM을 실행하고, 자연어 프롬프트로 Excel/CSV 파일을 처리합니다.
 
 ## Demo Video (YouTube)
 
-[![Streamlit AI Lab Demo](https://img.youtube.com/vi/9_hKYMj6v2w/maxresdefault.jpg)](https://youtu.be/9_hKYMj6v2w?si=bxu1iDOnps2_rmur)
+[![SheetPilot Demo](https://img.youtube.com/vi/9_hKYMj6v2w/maxresdefault.jpg)](https://youtu.be/9_hKYMj6v2w?si=bxu1iDOnps2_rmur)
 
 ## Features
 
@@ -23,8 +23,8 @@ Streamlit 기반의 로컬 AI 워크벤치. Ollama를 통해 LLM을 실행하고
 
 ```bash
 # Clone
-git clone git@github.com:prof-lijar/streamlit-ai-lab.git
-cd streamlit-ai-lab
+git clone git@github.com:prof-lijar/sheetpilot.git
+cd sheetpilot
 
 # Virtual environment
 python -m venv .venv
@@ -64,7 +64,7 @@ streamlit run app.py
 ## Project Structure
 
 ```
-streamlit-ai-lab/
+sheetpilot/
 ├── app.py                  # Streamlit main app
 ├── utils/
 │   ├── ollama_client.py    # Ollama API client
