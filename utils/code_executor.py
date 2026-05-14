@@ -51,12 +51,13 @@ def _validate_code(code: str) -> list[str]:
     for node in ast.walk(tree):
         if isinstance(node, (ast.Import, ast.ImportFrom)):
             if isinstance(node, ast.Import):
-                names = [alias.name.split(".")[0] for alias in node.names]
+                names = [alias.name for alias in node.names]
             else:
-                names = [node.module.split(".")[0]] if node.module else []
+                names = [node.module] if node.module else []
             for name in names:
-                if name in BLOCKED_MODULES:
-                    violations.append(f"Blocked import: {name}")
+                violations.append(
+                    f"Import not allowed: {name} (pd and np are already available)"
+                )
         elif isinstance(node, ast.Call):
             if isinstance(node.func, ast.Name) and node.func.id in BLOCKED_BUILTINS:
                 violations.append(f"Blocked builtin call: {node.func.id}")
