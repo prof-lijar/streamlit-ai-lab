@@ -4,7 +4,7 @@ Streamlit 기반의 로컬 AI 워크벤치. Ollama를 통해 LLM을 실행하고
 
 ## Demo
 
-[![Streamlit AI Lab Demo](https://img.youtube.com/vi/9_hKYMj6v2w/maxresdefault.jpg)](https://youtu.be/9_hKYMj6v2w?si=BaCvmnLpy5xiZfGc)
+[![Streamlit AI Lab Demo](https://img.youtube.com/vi/9_hKYMj6v2w/maxresdefault.jpg)](https://youtu.be/9_hKYMj6v2w?si=bxu1iDOnps2_rmur)
 
 ## Features
 
