@@ -2,7 +2,7 @@
 
 Streamlit 기반의 로컬 AI 워크벤치. Ollama를 통해 LLM을 실행하고, 자연어 프롬프트로 Excel/CSV 파일을 처리합니다.
 
-## Demo
+## Demo Video (YouTube)
 
 [![Streamlit AI Lab Demo](https://img.youtube.com/vi/9_hKYMj6v2w/maxresdefault.jpg)](https://youtu.be/9_hKYMj6v2w?si=bxu1iDOnps2_rmur)
 
